@@ -1,0 +1,129 @@
+
+h1{
+    margin: 50px auto 0px auto;
+    font-family: 'Freehand', cursive;
+    font-size: 5.625em; /** 16px = 100% = 1em **/
+    color: #66BFBF;
+    line-height: 2; /** If there are 4 line and iine height is set as 2  then it increases the space between 2 lines**/ 
+}
+h2{
+    font-size: 2.5rem; 
+    /** rem is used when the text size is not affected by any other text sizing, like if theres a font size in body as well as in h2 so the text size gets added but in the case of rem it doesn not happen**/
+    margin: 0 auto 50px auto;
+    color: #66BFBF;
+    font-weight: normal; /** this makes the text bold or normal accordingly**/
+}
+h3{
+    color: #11999E ;             
+}
+a{
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none; /** by default the ankor tag <a> underlines the text which gets hyperlinked, so this command is used to remove the underline from the text**/
+}
+a:hover{ /** this changes the colour of the text once the courser comes onto that text**/
+    color: white;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+}
+.top-container
+{
+    background-color: #EAF6F6;
+}
+
+.mountain{
+    position: relative;
+}
+
+.name{
+    display: inline;
+}
+.top-cloud
+{
+    margin-top: 100px;
+    position: relative;
+    left: 300px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+}
+.skill-image1
+{
+    width: 25%;
+    margin: 0 30px 0 0;
+    float: left; /** this is used to wrap text arrounf the image , float left will make the image go to the right of the text, basically the text will be wrapped on the right hand side**/
+}
+.skill-image2
+{
+    width: 25%; 
+    float: right;   /** this is used to wrap text arrounf the image , float right will make the imge go to the left of the text, basically the text will be wrapped on the left hand side**/
+    margin: 0 0 0 30px;
+}
+.skill-row
+{   
+    margin: 100px auto;  /** this is one way to center the content on a web page**/
+
+         /** this is the second way --> position: relative;
+                                        left: 25%;**/
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.profile{
+    color: #40514E;
+}
+hr{
+    border-style: none;
+border-top-style: dotted;
+width: 5%;
+border-width: 8px;
+color: gray;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.bottom-container
+{
+    padding: 50px 0;
+    background-color: #66BFBF;
+}
+.contact-me
+{
+    margin-bottom: 100px;
+}
+
+.copy-right{
+    color: white;
+    size: 2px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
